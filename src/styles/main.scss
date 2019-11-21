@@ -1,0 +1,31 @@
+$colors: (
+    primary: #FFF6BA
+);
+
+@function color($color-name) {
+    @return map-get($colors, $color-name)
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: color(primary);
+}
+
+main {
+    section {
+        img {
+            max-height:40vh;
+            width: auto;
+            object-fit: cover;
+        }
+    }
+}
