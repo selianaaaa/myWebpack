@@ -20,12 +20,18 @@ body {
     background-color: color(primary);
 }
 
-main {
-    section {
-        img {
-            max-height:40vh;
-            width: auto;
-            object-fit: cover;
+section {
+    img {
+        max-height:40vh;
+        width: auto;
+        object-fit: cover;
+    }
+    h1 {
+        font-size: 5vh;
+        cursor: pointer;
+        &:hover{
+            color: gray;
+            font-size:7vh;
         }
     }
 }
