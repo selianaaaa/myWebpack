@@ -1,11 +1,8 @@
 /node_modules
 
 # production
-/dist
+/build
 
 .DS_Store
 *.log
-.idea
 .vscode
-.cache
-.eslintcache
