@@ -1,11 +1,5 @@
-class App{
-    constructor(){
-        this.name = 'App webpack'
-    }
+function App() {
+    console.log('App is ready');
+};
 
-    get fullName(){
-        return `this app name is "${this.name}`
-    }
-}
-
-export default App
+export default App;
